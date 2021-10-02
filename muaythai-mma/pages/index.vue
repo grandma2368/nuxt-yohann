@@ -1,9 +1,9 @@
 <template>
-<body style="min-height: 100vh">
-  <Tutorial/>
-</body>
+  <home />
 </template>
 
 <script>
-export default {}
+import Home from '../components/Home.vue'
+export default {
+  components: { Home },}
 </script>
