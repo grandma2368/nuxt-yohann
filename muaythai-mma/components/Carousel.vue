@@ -1,12 +1,12 @@
 <template>
 <!-- <div class="img">
-    <img src="../assets/photo-groupe-boxe-1.jpg" alt="photo groupe boxe 1">
+    <img src="/img/photo-groupe-boxe-1.jpg" alt="photo groupe boxe 1">
 </div> -->
 <div id="slider">
   <figure>
-    <img src="../assets/photo-groupe-boxe-1.jpg" alt="photo groupe boxe 1">
-    <img src="../assets/photo-groupe-boxe-2.jpg" alt="photo groupe boxe 2">
-    <img src="../assets/photo-groupe-boxe-3.jpg" alt="photo groupe boxe 3">
+    <img src="/img/photo-groupe-boxe-1.jpg" alt="photo groupe boxe 1">
+    <img src="/img/photo-groupe-boxe-2.jpg" alt="photo groupe boxe 2">
+    <img src="/img/photo-groupe-boxe-3.jpg" alt="photo groupe boxe 3">
   </figure>
 </div>
 </template>

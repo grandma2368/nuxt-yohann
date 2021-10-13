@@ -11,8 +11,4 @@ export default {
 </script>
 
 <style>
-html,body {
-    width: 100vh;
-    background-color: black;
-}
 </style>
