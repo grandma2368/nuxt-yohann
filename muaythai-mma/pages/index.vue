@@ -1,9 +1,7 @@
 <template>
-  <home />
+  <Carousel/>
 </template>
 
 <script>
-import Home from '../components/Home.vue'
-export default {
-  components: { Home },}
+export default {}
 </script>

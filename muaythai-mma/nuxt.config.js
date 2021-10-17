@@ -1,7 +1,4 @@
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
-  ssr: false,
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'muaythai-mma',
@@ -21,11 +18,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~/assets/main",
+    '~/assets/css/main',
+    '~/assets/scss/main'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/vue-agile'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -46,5 +45,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: ['vue-agile']
   }
 }
