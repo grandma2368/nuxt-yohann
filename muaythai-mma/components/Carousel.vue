@@ -10,8 +10,8 @@
             <div>
                 <img src="/img/photo-groupe-boxe-3.png" alt="photo groupe boxe 3">
             </div>
-            <template slot="prevButton"><img class="arrow" src="/img/left-facing-fist-apple.png" alt="poing gauche"></template>
-            <template slot="nextButton"><img class="arrow" src="/img/right-facing-fist-apple.png" alt="poing droit"></template>
+            <template slot="prevButton"><img class="arrow left" src="/img/left-facing-fist-apple.png" alt="poing gauche"></template>
+            <template slot="nextButton"><img class="arrow right" src="/img/right-facing-fist-apple.png" alt="poing droit"></template>
         </agile>
     <!-- </div> -->
 </template>
@@ -25,7 +25,17 @@ export default {
 <style lang="scss">
 
 .arrow {
-    width: 25%;
+    width: 35%;
+    position: relative;
 }
 
+.left {
+    bottom: 50vh;
+    left: 0;
+}
+
+.right {
+    bottom: 50vh;
+    right: 0;
+}
 </style>
