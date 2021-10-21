@@ -1,13 +1,20 @@
 <template>
   <div class="layout">
-    <Header />
     <Carousel/>
     <div class="container">
       <nav>
-        <nuxt-link to="/">Accueil</nuxt-link>
-        <nuxt-link to="/about">A propos</nuxt-link>
-        <nuxt-link to="/gallery">Photo</nuxt-link>
-        <nuxt-link to="/videos">Video</nuxt-link>
+        <div>
+          <nuxt-link to="/">Accueil</nuxt-link>
+        </div>
+        <div>
+          <nuxt-link to="/about">A propos</nuxt-link>
+        </div>
+        <div>
+          <nuxt-link to="/gallery">Photo</nuxt-link>
+        </div>
+        <div>
+          <nuxt-link to="/videos">Video</nuxt-link>
+        </div>
       </nav>
     </div>
     <Nuxt />
@@ -28,5 +35,17 @@ nav {
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
+  position: relative;
+  bottom: 8vh;
+  div {
+    background-color: rgb(71, 71, 71);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(116, 114, 114);
+    a {
+      padding: 1vw;
+    }
+    padding: 1vw 0;
+    margin: 0 2.5vw;
+  }
 }
 </style>

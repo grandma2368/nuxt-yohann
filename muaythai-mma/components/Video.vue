@@ -1,5 +1,5 @@
 <template>
-    <div class="flex-center container">
+    <div class="flex-center-column container">
         <h2>{{ title }}</h2>
         <video :src="video"></video>
         <span>{{ desc }}</span>
@@ -18,5 +18,7 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-
+video {
+  width: 80vw;
+}
 </style>
