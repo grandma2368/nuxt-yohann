@@ -1,7 +1,7 @@
 <template>
     <div class="flex-center-column container">
         <h2>{{ title }}</h2>
-        <video :src="video"></video>
+        <video :src="video" controls preload></video>
         <span>{{ desc }}</span>
     </div>
 </template>
@@ -18,7 +18,11 @@ export default{
 </script>
 
 <style lang="scss" scoped>
+div {
+    width: 100%;
+}
 video {
+  margin: 1%;
   width: 80vw;
 }
 </style>

@@ -17,5 +17,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+div {
+  width: 100%;
+}
+span {
+  margin: 1%;
+  font-size: 1.5rem;
+}
 </style>

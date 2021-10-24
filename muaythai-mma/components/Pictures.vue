@@ -20,5 +20,14 @@ export default{
 <style lang="scss" scoped>
 img {
     width: 80%;
+    border-radius: 20px;
+    margin: 1%;
+}
+h2 {
+    font-size: 2rem;
+}
+span {
+    margin: 1%;
+    font-size: 1.5rem;
 }
 </style>

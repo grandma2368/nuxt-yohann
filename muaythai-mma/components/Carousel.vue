@@ -47,4 +47,5 @@ export default {
     bottom: 50vh;
     right: -10vw;
 }
+
 </style>

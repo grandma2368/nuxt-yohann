@@ -35,7 +35,7 @@
     <span>
       De retour sur le Caillou pour former les futurs combattant.e.s caledonien.ne.s.
     </span>
-    <video src="/video/pres_yohann.mp4"></video>
+    <video src="/video/pres_yohann.mp4" autoplay controls muted></video>
   </div>
 </template>
 
